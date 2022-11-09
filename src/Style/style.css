@@ -1,0 +1,23 @@
+.Edit-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+.Edit-btn{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20rem 0px 20rem;
+}
+.View-btn{
+    font-size: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: blue;
+    
+
+}
+.Container-Btn{
+    display: flex;
+    justify-content: center;
+}
