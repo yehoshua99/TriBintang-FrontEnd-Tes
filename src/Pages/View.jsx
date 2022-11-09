@@ -10,7 +10,7 @@ const View = () => {
         .then((res) => {
             setDataSource(res.data)
         })
-    }, [])
+    }, )
 
     const {id} = useParams()
 

@@ -20,7 +20,7 @@ const Edit = () => {
             setRole(res.data.role)
             setMenu(res.data.menu)
         })
-    }, [])
+    }, [id])
 
     const data = {
         role:role,
